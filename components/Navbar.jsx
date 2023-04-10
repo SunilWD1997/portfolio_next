@@ -20,7 +20,7 @@ const Navbar = () => {
       <MenuBar showMenu={showMenu} setShowMenu={setShowMenu}/>
 
       <div className="hidden text-[12px]  font-bold   md:flex flex-row items-center justify-center gap-1 border-[2px] border-orange-400 px-[13px] py-[4px] rounded-[7px] hover:bg-orange-400 hover:text-white">
-        <Link href="/">Download CV  </Link> <MdOutlineDownload className=" text-[16px] "/>
+        <Link download href="/resume.pdf">Download CV  </Link> <MdOutlineDownload className=" text-[16px] "/>
       </div>
 
       <div className="md:hidden" onClick={()=>setShowMenu(!showMenu)}>
